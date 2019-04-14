@@ -1,0 +1,11 @@
+{
+    "extname": {
+        "message": "空白新标签页 - White Smoke"
+    },
+    "extdesc": {
+        "message": "Windows风格White Smoke背景的空白新标签页。"
+    },
+    "new_tab_page": {
+        "message": "新标签页"
+    }
+}

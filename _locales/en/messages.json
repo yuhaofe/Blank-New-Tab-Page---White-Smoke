@@ -1,0 +1,11 @@
+{
+    "extname": {
+        "message": "Blank New Tab Page - White Smoke"
+    },
+    "extdesc": {
+        "message": "A blank new tab page with windows style white smoke background."
+    },
+    "new_tab_page": {
+        "message": "New Tab"
+    }
+}
