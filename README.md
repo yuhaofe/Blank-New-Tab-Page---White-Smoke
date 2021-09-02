@@ -1,7 +1,7 @@
 # Blank New Tab Page - White Smoke
-A chrome extension replaces the default new tab page to a windows style white smoke background blank page.
+A chrome extension replaces the default new tab page to a white smoke background blank page, which also supports dark mode.
 
-[![Install from Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/blank-new-tab-page-white/jmbngnnlimnakiibacglaeflpghellfh)
+[![Install from Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/blank-new-tab-page-white/jmbngnnlimnakiibacglaeflpghellfh)
 
 # License
 Codes in this repository are licensed under MIT license.
