@@ -3,7 +3,7 @@
         "message": "Blank New Tab Page - White Smoke"
     },
     "extdesc": {
-        "message": "A blank new tab page with windows style white smoke background."
+        "message": "A blank new tab page with white smoke background, which also supports dark mode."
     },
     "new_tab_page": {
         "message": "New Tab"
