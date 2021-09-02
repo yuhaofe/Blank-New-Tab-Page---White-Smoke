@@ -7,5 +7,20 @@
     },
     "new_tab_page": {
         "message": "New Tab"
+    },
+    "options": {
+        "message": "Options"
+    },
+    "theme": {
+        "message": "Theme"
+    },
+    "theme_system": {
+        "message": "System"
+    },
+    "theme_light": {
+        "message": "Light"
+    },
+    "theme_dark": {
+        "message": "Dark"
     }
 }
