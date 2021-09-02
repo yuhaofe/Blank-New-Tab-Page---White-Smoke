@@ -5,14 +5,28 @@
     <link rel="icon" href="../icons/blank32.png" sizes="32x32" type="image/png">
     <title>New Tab</title>
     <style>
-        body {
+        .theme-system {
             background-color: whitesmoke;
         }
+
+        @media (prefers-color-scheme: dark) {
+            .theme-system {
+                background-color: #333333;
+            }
+        }
+
+        .theme-light {
+            background-color: whitesmoke;
+        }
+
+        .theme-dark {
+            background-color: #333333;
+        }
     </style>
-    <script src="locales.js"></script>
+    <script src="blank.js"></script>
 </head>
 
-<body>
+<body class="theme-light">
 </body>
 
 </html>
