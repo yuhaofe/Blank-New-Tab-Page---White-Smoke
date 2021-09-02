@@ -1,85 +1,98 @@
 <html>
-    <head>
-        <title>Options</title>
-        <style>
-            html, body {
-                background-color: white;
-                margin: 0px;
-            }
-            .options-card {
-                display: flex;
-                flex-direction: column;
-                background-color: whitesmoke;
-                box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px, rgb(0 0 0 / 11%) 0px 0px 2.9px;
-            }
-            .options-title {
-                margin: 10px 10px 0px 10px;
-                font-size: 16px;
-            }
-            .options-radio {
-                margin: 10px 5px 10px 5px;
-                display: flex;
-                flex-direction: row;
-            }
-            input[type="radio"] {
-                display: none;
-            }
-            input[type="radio"]:checked + .radio-button {
-                border-color: rgb(0, 120, 212);
-                box-shadow: rgb(0 120 212) 0px 0px 0px 3px inset;
-            }
-            .radio-button {
-                background-color: white;
-                height: 100px;
-                width: 100px;
-                box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px, rgb(0 0 0 / 11%) 0px 0px 2.9px;
-                margin: 0px 5px 0px 5px;
-                border-radius: 4px;
-            }
-            .radio-button:hover {
-                box-sizing: border-box;
-                border: 1px solid #DCDCDC;
-            }
-            .radio-image {
-                box-sizing: border-box;
-                border: 1px solid #DCDCDC;
-                border-radius: 2px;
-                margin: 10px 10px 5px 10px;
-            }
-            .radio-label {
-                display: block;
-                margin: 0px 10px 0px 10px;
-                font-size: 14px;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="theme" class="options-card">
-            <h2 class="options-title" data-locale="theme">Theme</h2>
-            <div class="options-radio">
-                <input type="radio" name="theme" value="system" id="system">
-                <label for="system" class="radio-button">
-                    <svg class="radio-image" xmlns="http://www.w3.org/2000/svg" width="80" height="60">
-                        <path d="m0,60l0,-60l80,60" fill="#000000"/>
-                    </svg>
-                    <span class="radio-label" data-locale="theme_system">System</span>
-                </label>
-                <input type="radio" name="theme" value="light" id="light">
-                <label for="light" class="radio-button">
-                    <svg class="radio-image" xmlns="http://www.w3.org/2000/svg" width="80" height="60">
-                        <rect height="60" width="80" y="0" x="0" fill="#f5f5f5"/>
-                    </svg>
-                    <span class="radio-label" data-locale="theme_light">Light</label>
-                </label>
-                <input type="radio" name="theme" value="dark" id="dark">
-                <label for="dark" class="radio-button">
-                    <svg class="radio-image" xmlns="http://www.w3.org/2000/svg" width="80" height="60">
-                        <rect height="60" width="80" y="0" x="0" fill="#000000"/>
-                    </svg>
-                    <span class="radio-label" data-locale="theme_dark">Dark</label>
-                </label>
-            </div>
+
+<head>
+    <title>Options</title>
+    <style>
+        html,
+        body {
+            background-color: white;
+            margin: 0px;
+        }
+
+        .options-card {
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+            box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px, rgb(0 0 0 / 11%) 0px 0px 2.9px;
+        }
+
+        .options-title {
+            margin: 10px 10px 0px 10px;
+            font-size: 16px;
+        }
+
+        .options-radio {
+            margin: 10px 5px 10px 5px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        input[type="radio"] {
+            display: none;
+        }
+
+        input[type="radio"]:checked+.radio-button {
+            border-color: rgb(0, 120, 212);
+            box-shadow: rgb(0 120 212) 0px 0px 0px 3px inset;
+        }
+
+        .radio-button {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px, rgb(0 0 0 / 11%) 0px 0px 2.9px;
+            margin: 0px 5px 0px 5px;
+            border-radius: 4px;
+        }
+
+        .radio-button:hover {
+            box-sizing: border-box;
+            border: 1px solid #DCDCDC;
+        }
+
+        .radio-image {
+            box-sizing: border-box;
+            border: 1px solid #DCDCDC;
+            border-radius: 2px;
+            margin: 10px 10px 5px 10px;
+        }
+
+        .radio-label {
+            display: block;
+            margin: 0px 10px 0px 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="theme" class="options-card">
+        <h2 class="options-title" data-locale="theme">Theme</h2>
+        <div class="options-radio">
+            <input type="radio" name="theme" value="system" id="system">
+            <label for="system" class="radio-button">
+                <svg class="radio-image" xmlns="http://www.w3.org/2000/svg" width="80" height="60">
+                    <path d="m0,60l0,-60l80,60" fill="#000000" />
+                </svg>
+                <span class="radio-label" data-locale="theme_system">System</span>
+            </label>
+            <input type="radio" name="theme" value="light" id="light">
+            <label for="light" class="radio-button">
+                <svg class="radio-image" xmlns="http://www.w3.org/2000/svg" width="80" height="60">
+                    <rect height="60" width="80" y="0" x="0" fill="#f5f5f5" />
+                </svg>
+                <span class="radio-label" data-locale="theme_light">Light</label>
+            </label>
+            <input type="radio" name="theme" value="dark" id="dark">
+            <label for="dark" class="radio-button">
+                <svg class="radio-image" xmlns="http://www.w3.org/2000/svg" width="80" height="60">
+                    <rect height="60" width="80" y="0" x="0" fill="#000000" />
+                </svg>
+                <span class="radio-label" data-locale="theme_dark">Dark</label>
+            </label>
         </div>
-        <script src="options.js"></script>
-    </body>
+    </div>
+    <script src="options.js"></script>
+</body>
+
 </html>
