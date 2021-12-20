@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     document.title = chrome.i18n.getMessage("options");
+    if (chrome.extension.inIncognitoContext) {
+        let incognito = document.getElementById('in-incognito');
+        incognito.innerText = chrome.i18n.getMessage("in_incognito");
+        incognito.classList.remove('hide');
+        let theme = document.getElementById('theme');
+        theme.classList.add('hide');
+        return;
+    }
     document.querySelectorAll('[data-locale]').forEach(elem => {
         elem.innerText = chrome.i18n.getMessage(elem.dataset.locale);
     });
