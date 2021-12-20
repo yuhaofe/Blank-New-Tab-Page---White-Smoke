@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function loadOptions() {
+    if (chrome.extension.inIncognitoContext) {
+        document.body.className = 'theme-incognito';
+        return;
+    }
     chrome.storage.local.get(['theme'], result => {
         if (!result.theme) {
             result.theme = 'light';
