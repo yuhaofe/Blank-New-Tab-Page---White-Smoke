@@ -26,5 +26,6 @@
     "permissions": [
         "storage"
     ],
+    "incognito": "split",
     "default_locale": "en"
 }
