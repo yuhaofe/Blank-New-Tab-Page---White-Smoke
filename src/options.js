@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('input[type="radio"][name="theme"]').forEach(radio => {
         radio.addEventListener('change', event => {
             chrome.storage.local.set({ theme: event.target.value });
+            localStorage.setItem('lastTheme', event.target.value);
         });
     });
     chrome.storage.local.get(['theme'], result => {
