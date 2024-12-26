@@ -3,6 +3,10 @@
 <head>
     <title>Options</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         html,
         body {
             background-color: white;
@@ -11,19 +15,18 @@
         }
 
         .options-card {
-            display: flex;
-            flex-direction: column;
+            padding: 10px;
             background-color: whitesmoke;
             box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px, rgb(0 0 0 / 11%) 0px 0px 2.9px;
         }
 
         .options-title {
-            margin: 10px 10px 0px 10px;
+            margin: 0;
             font-size: 16px;
         }
 
         .options-radio {
-            margin: 10px 5px 10px 5px;
+            margin-top: 10px;
             display: flex;
             flex-direction: row;
         }
@@ -42,8 +45,11 @@
             height: 100px;
             width: 100px;
             box-shadow: rgb(0 0 0 / 13%) 0px 1.6px 3.6px, rgb(0 0 0 / 11%) 0px 0px 2.9px;
-            margin: 0px 5px 0px 5px;
             border-radius: 4px;
+        }
+        
+        .radio-button:not(:last-child) {
+            margin-right: 10px;
         }
 
         .radio-button:hover {
