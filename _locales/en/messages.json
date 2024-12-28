@@ -3,7 +3,7 @@
         "message": "Blank New Tab Page - White Smoke"
     },
     "extdesc": {
-        "message": "A blank new tab page with white smoke background, which also supports dark mode."
+        "message": "A blank new tab page with White Smoke background, which also supports dark mode."
     },
     "new_tab_page": {
         "message": "New Tab"
@@ -24,6 +24,6 @@
         "message": "Dark"
     },
     "in_incognito": {
-        "message": "Current window is in incognito/inprivate mode"
+        "message": "Current window is in Incognito/InPrivate mode."
     }
 }

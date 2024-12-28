@@ -1,29 +1,29 @@
 {
-   "extdesc": {
-      "message": "Una página de nueva pestaña en blanco con fondo White Smoke, también compatible con modo oscuro."
-   },
-   "extname": {
-      "message": "Página de Nueva Pestaña en blanco - White Smoke"
-   },
-   "in_incognito": {
-      "message": "La ventana actual está en modo incognito/inprivate"
-   },
-   "new_tab_page": {
-      "message": "Nueva Pestaña"
-   },
-   "options": {
-      "message": "Opciones"
-   },
-   "theme": {
-      "message": "Tema"
-   },
-   "theme_dark": {
-      "message": "Oscuro"
-   },
-   "theme_light": {
-      "message": "Claro"
-   },
-   "theme_system": {
-      "message": "Sistema"
-   }
+    "extdesc": {
+        "message": "Una página de nueva pestaña en blanco con fondo White Smoke, también compatible con modo oscuro."
+    },
+    "extname": {
+        "message": "Página de Nueva Pestaña en blanco - White Smoke"
+    },
+    "in_incognito": {
+        "message": "La ventana actual está en modo Incognito/InPrivate."
+    },
+    "new_tab_page": {
+        "message": "Nueva Pestaña"
+    },
+    "options": {
+        "message": "Opciones"
+    },
+    "theme": {
+        "message": "Tema"
+    },
+    "theme_dark": {
+        "message": "Oscuro"
+    },
+    "theme_light": {
+        "message": "Claro"
+    },
+    "theme_system": {
+        "message": "Sistema"
+    }
 }
